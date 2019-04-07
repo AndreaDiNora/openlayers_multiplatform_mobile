@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'  'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src * data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Openstretmap Test App</title>
+    <style>
+        .map {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+</head>
+
+<body>
+    <div class="app">
+        <div id="deviceready">
+            <p class="event listening blink">Connecting to Device</p>
+            <div id="map" class="event received map"></div>
+            <a href="https://www.dnavideochannel.net/demos/OL-Multiplatform/demo-Openlayers-Multi-Platform.html" class="demoLink">Demo link</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="ol/ol.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
