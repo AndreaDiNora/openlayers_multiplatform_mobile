@@ -1,7 +1,8 @@
 # Openlayers Multiplatform Mobile
 Test application that uses Cordova to create an Openlayers map on different mobile and web platforms
 
-Follow this guideline on Cordova to start with the project.
+Follow this <a href="https://cordova.apache.org/docs/en/3.0.0/guide/cli/index.html">guideline</a> on Cordova to start with the project.
+
 
 After, you can use the command 
 
