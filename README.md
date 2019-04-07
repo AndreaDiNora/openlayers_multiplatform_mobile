@@ -5,13 +5,13 @@ Follow this guideline on Cordova to start with the project.
 
 After, you can use the command 
 
-cordova run browser 
+<b>cordova run browser</b>
 
 to start app on your browser
 
 or
 
-cordova run android 
+<b>cordova run android</b>
 
 to emulate your app on an Android device (i connect it with my physical device)
 
